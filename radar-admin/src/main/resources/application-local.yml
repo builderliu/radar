@@ -1,11 +1,11 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/radar
+      uri: mongodb://47.97.220.84:5015/radar
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/radar?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=false
     username: root
-    password: 456132
+    password: 123456
   redis:
     host: 127.0.0.1
     password:
@@ -24,7 +24,8 @@ elasticsearch:
   pool-size: 5
   cluster:
     name: elasticsearch
-  url: http://127.0.0.1:9200
+#  url: http://127.0.0.1:9200
+  url: http://47.97.220.84:5016
   username:  # 不存在就留空
   password:  #
 sys:

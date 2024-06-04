@@ -22,3 +22,5 @@ webapp/node_modules/
 .classpath
 .factorypath
 /radar-kafka-demo/target/
+.vscode/
+
